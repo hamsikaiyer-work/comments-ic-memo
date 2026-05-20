@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMART – Deal UI</title>
+  <link rel="stylesheet" href="smart-ui.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { overflow: hidden; }
+    #app { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module">
+    import { bind } from './smart-ui.js';
+    bind(document.getElementById('app'));
+  </script>
+</body>
+</html>
